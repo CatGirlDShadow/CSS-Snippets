@@ -10,6 +10,7 @@
     border-radius: 0 0 8px 8px;
     scrollbar-width: none;
     padding: 8px !important;
+    max-height: 255px !important;
 }
 [class^=quickswitcher] [class^=input] {
     height: 50px;
