@@ -1,4 +1,0 @@
-[class*=username][class*=desaturateUserColors]{
-    background-color: attr(style);
-    color: white;
-}
