@@ -1,0 +1,3 @@
+[class^=bar__]:has([class^=voiceChannelsIcon__]) {
+    display: none;
+}

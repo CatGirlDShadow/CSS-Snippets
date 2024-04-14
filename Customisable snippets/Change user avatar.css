@@ -1,0 +1,3 @@
+[src^="https://cdn.discordapp.com/avatars/YOUR_ID/"] {
+    content: url(IMAGE_LINK);
+}

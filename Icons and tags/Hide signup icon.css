@@ -1,0 +1,4 @@
+[data-list-id="guildsnav"]>div>div>div
+:has(>div[style*="background: url(\"https://cdn.discordapp.com/assets/signups"]) {
+    display:none
+}
