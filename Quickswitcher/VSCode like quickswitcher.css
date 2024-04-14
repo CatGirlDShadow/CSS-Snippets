@@ -1,0 +1,29 @@
+[class^=layer]:has([class^=quickswitcher]) {
+    justify-content: start;
+}
+[class^=quickswitcher] {
+    background: none;
+    padding: 0;
+}
+[class^=quickswitcher] [class^=scroller] {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    scrollbar-width: none;
+    padding: 8px !important;
+}
+[class^=quickswitcher] [class^=input] {
+    height: 50px;
+}
+[class^=quickswitcher] [class^=input][value=""] {
+    border-radius: 8px;
+}
+[class^=quickswitcher] [class^=input]:not([value=""]) {
+    border-radius: 8px 8px 0 0;
+}
+[class^=quickswitcher] [class^=input][value=""] + [class^=scroller],
+[class^=quickswitcher] [class^=protip] {
+    display: none;
+}
+[class^=backdrop]:has(+ [class^=layer] [class^=quickswitcher]) {
+    opacity: 0;
+}
