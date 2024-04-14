@@ -3,7 +3,7 @@ div [class ^=scrollerContent]
 >div [class^=container]{
     position: sticky;
 }
-div [class ^=scrollerContent]
+div [class^=scrollerContent]
 >ol [class^=scrollerInner]{
-    overflow: unset;
+    overflow: unset !important;
 }
