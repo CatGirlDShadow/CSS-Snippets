@@ -13,6 +13,7 @@
 }
 [class^=quickswitcher] [class^=input] {
     height: 50px;
+    padding: 0 32px !important;
 }
 [class^=quickswitcher] [class^=input][value=""] {
     border-radius: 8px;
