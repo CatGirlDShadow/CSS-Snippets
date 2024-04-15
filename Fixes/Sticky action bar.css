@@ -1,6 +1,6 @@
-div[class ^=scrollerContent]>ol[class^=scrollerInner]>div[class^=container]:has(div[class^=reactButtons]){
+div[class ^=scrollerContent]>ol[class^=scrollerInner]>div[class^=container]:has(>div[class^=reactButtons]){
     position: sticky !important;
-    background-color: gray !important;
+    background-color: black !important;
 }
 div[class^=scrollerContent]>ol[class^=scrollerInner] {
     overflow: unset !important;
