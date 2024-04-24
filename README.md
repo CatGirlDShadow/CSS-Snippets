@@ -32,7 +32,7 @@
 - [Hightlight dangerous actions](/Popups/User%20popup/Highlight%20dangerous%20actions.css) by @pointy
 ### [Quickswitcher](/Quickswitcher)
 - [VSCode-like quickswitch](/Quickswitcher/VSCode%20like%20quickswitcher.css) by @dablulite
-### [Settings[(/Settings)
+### [Settings](/Settings)
 - [Settings (all full-screens) as modals](/Settings/Settings%20as%20modal.css) by @domi.btnr (idea by @nvhhr)
 ### [User profile](/User%20profile)
 - [User account settings tab badges background content-width](/User%20profile/Content-width%20user%20account%20page%20badges.css) by @obsidianninja11
