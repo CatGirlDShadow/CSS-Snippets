@@ -1,8 +1,8 @@
-#channels [class^=container_]:not([class*=containerWithMargin]):has(>ul[role^=group])
+li #channels [class^=container_]:not([class*=containerWithMargin])
  { max-height: 0;
    overflow: hidden; 
    transition: max-height 4s ease; }
    
-#channels [class^=containerDefault_]:hover + [class^=container_]:has(>ul[role^=group])
-#channels [class^=container_]:has(>ul[role^=group]):hover
- { max-height: 100%; }
+#channels [class^=containerDefault_]:hover + li[class^=container_]
+li #channels [class^=container_]
+{ max-height: 100%; }
