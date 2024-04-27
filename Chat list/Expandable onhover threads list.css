@@ -1,8 +1,8 @@
-#channels [class^=container_]:not([class*=containerWithMargin]):not(>[class^=usernameContainer__])
+#channels [class^=container_]:not([class*=containerWithMargin]):has(>ul[role^=group])
  { max-height: 0;
    overflow: hidden; 
    transition: max-height 4s ease; }
    
-#channels [class^=containerDefault_]:hover + [class^=container_]:not(>[class^=usernameContainer__]),
-#channels [class^=container_]:not(>[class^=usernameContainer__]):hover
+#channels [class^=containerDefault_]:hover + [class^=container_]:has(>ul[role^=group])
+#channels [class^=container_]:has(>ul[role^=group]):hover
  { max-height: 100%; }
