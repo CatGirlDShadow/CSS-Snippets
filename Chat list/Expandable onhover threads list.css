@@ -1,8 +1,8 @@
-#channels [class^=container_]:not([class*=containerWithMargin])
+#channels [class^=container_]:not([class*=containerWithMargin]):not(>[class^=usernameContainer__])
  { max-height: 0;
    overflow: hidden; 
    transition: max-height 4s ease; }
    
-#channels [class^=containerDefault_]:hover + [class^=container_],
-#channels [class^=container_]:hover
+#channels [class^=containerDefault_]:hover + [class^=container_]:not(>[class^=usernameContainer__]),
+#channels [class^=container_]:not(>[class^=usernameContainer__]):hover
  { max-height: 100%; }
